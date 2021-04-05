@@ -1,6 +1,5 @@
 package web.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -28,13 +27,11 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
-    //залить проект на гит
 
     @Override
     public void addUser(User user) {
     userRepository.saveAndFlush(user);
     }
-
 
     @Override
     @Transactional
