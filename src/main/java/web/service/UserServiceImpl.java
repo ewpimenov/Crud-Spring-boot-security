@@ -33,6 +33,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     public void addUser(User user) {
     userRepository.saveAndFlush(user);
     }
+    //залить проект на гитхаб
 
     @Override
     @Transactional
