@@ -28,6 +28,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
+    //залить проект на гит
 
     @Override
     public void addUser(User user) {
