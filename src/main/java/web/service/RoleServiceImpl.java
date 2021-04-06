@@ -1,7 +1,5 @@
 package web.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import web.model.Role;
@@ -13,13 +11,12 @@ import java.util.List;
 @Transactional
 public class RoleServiceImpl implements RoleService {
 
-    @Autowired
+
     private final RoleRepository roleRepository;
 
     public RoleServiceImpl(RoleRepository roleRepository) {
         this.roleRepository = roleRepository;
     }
-
 
     @Override
     @Transactional
@@ -30,6 +27,6 @@ public class RoleServiceImpl implements RoleService {
     @Override
     @Transactional
     public List<Role> getRolesByName(String[] role) {
-        return roleRepository.findAll(Sort.by(role));
+        return roleRepository.findAll(role);
     }
 }

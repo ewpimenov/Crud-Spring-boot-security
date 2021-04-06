@@ -62,7 +62,6 @@ public class AdminController {
     public String update(@ModelAttribute("user") User user, @RequestParam("role") String[] role) {
 
         user.setRoles(roleService.getRolesByName(role));
-
         User userFromDB = userService.getUser(user.getId());
         String oldPassword = userFromDB.getPassword();
         if (!user.getPassword().equals(oldPassword)) {
