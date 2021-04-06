@@ -21,7 +21,6 @@ import java.util.Properties;
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
-@EnableJpaRepositories("web.repository")
 @ComponentScan("web")
 public class JpaConfig {
 

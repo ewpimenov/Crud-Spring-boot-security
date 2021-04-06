@@ -29,12 +29,12 @@ public class AdminController {
 
     @GetMapping
     public String adminPage() {
-        return "admin";
+        return "/admin.html";
     }
 
     @GetMapping("/addUser")
     public String getUserAddForm(@ModelAttribute("user") User user) {
-        return "addUser";
+        return "/addUser.html";
     }
 
     @PostMapping("/addUser")
@@ -48,14 +48,14 @@ public class AdminController {
     @GetMapping("/listUsers")
     public String listAllUsers(Model model) {
         model.addAttribute("users", userService.getAllUsers());
-        return "listUsers";
+        return "/listUsers.html";
     }
 
     @GetMapping("/updateUser")
     public String updateForm(@RequestParam int id, Model model) {
         model.addAttribute("user", userService.getUser(id));
         model.addAttribute("roles", roleService.getAllRolesByName());
-        return "updateUser";
+        return "/updateUser.html";
     }
 
     @PostMapping("/updateUser")
@@ -76,7 +76,7 @@ public class AdminController {
     @GetMapping("/deleteUser")
     public String deleteUser(@RequestParam int id, Model model) {
         model.addAttribute("user", userService.getUser(id));
-        return "deleteUser";
+        return "/deleteUser.html";
     }
 
     @PostMapping("/deleteUser")

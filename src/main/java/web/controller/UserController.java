@@ -7,7 +7,6 @@ import web.service.UserService;
 
 
 @Controller
-
 public class UserController {
 
     private UserService userService;
@@ -19,11 +18,11 @@ public class UserController {
     @GetMapping("/")
     public String hello(Model model) {
         model.addAttribute("users", userService.getAllUsers());
-        return "listUsers";
+        return "/listUsers.html";
     }
 
     @GetMapping("/user")
     public String userPage() {
-        return "user";
+        return "/user.html";
     }
 }
