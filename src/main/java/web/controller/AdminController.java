@@ -9,6 +9,8 @@ import web.model.User;
 import web.service.RoleService;
 import web.service.UserService;
 
+import java.security.Principal;
+
 
 @Controller
 @RequestMapping("/admin")
@@ -28,34 +30,26 @@ public class AdminController {
     }
 
     @GetMapping
-    public String adminPage() {
-        return "/admin.html";
-    }
-
-    @GetMapping("/addUser")
-    public String getUserAddForm(@ModelAttribute("user") User user) {
-        return "/addUser.html";
+    public String adminPage(Model model, Principal principal) {
+        model.addAttribute("users", userService.getAllUsers());
+        model.addAttribute("role", roleService.getAllRolesByName());
+        model.addAttribute("user", principal.getName());
+        return "/admin";
     }
 
     @PostMapping("/addUser")
-    public String create(@ModelAttribute("user") User user) {
-        user.setRoles(roleService.getAllRolesByName());
+    public String create(@ModelAttribute("user") User user, @RequestParam("role") String[] role) {
+        user.setRoles(roleService.getRolesByName(role));
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         userService.addUser(user);
-        return "redirect:/";
-    }
-
-    @GetMapping("/listUsers")
-    public String listAllUsers(Model model) {
-        model.addAttribute("users", userService.getAllUsers());
-        return "/listUsers.html";
+        return "redirect:/admin";
     }
 
     @GetMapping("/updateUser")
     public String updateForm(@RequestParam int id, Model model) {
         model.addAttribute("user", userService.getUser(id));
         model.addAttribute("roles", roleService.getAllRolesByName());
-        return "/updateUser.html";
+        return "/updateUser";
     }
 
     @PostMapping("/updateUser")
@@ -69,18 +63,18 @@ public class AdminController {
             userService.updateUser(user);
         }
         userService.updateUser(user);
-        return "redirect:/";
+        return "redirect:/admin";
     }
 
     @GetMapping("/deleteUser")
     public String deleteUser(@RequestParam int id, Model model) {
         model.addAttribute("user", userService.getUser(id));
-        return "/deleteUser.html";
+        return "/deleteUser";
     }
 
     @PostMapping("/deleteUser")
     public String delete(@ModelAttribute("id") int id) {
         userService.deleteUser(id);
-        return "redirect:/";
+        return "redirect:/admin";
     }
 }
