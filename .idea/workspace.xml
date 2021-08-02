@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CRUD Spring-boot security:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9179e501-5ec9-491c-aa98-8f823dd4f376" name="Default Changelist" comment="commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crud_project: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CRUD Spring-boot security" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.1.2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\JAVA LEARNING\CRUD Spring-boot security\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qXOJjQrsp3iun5YwqxyfLQvR39" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29371428" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\static" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\static\JS" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\templates" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\templates" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CRUD Spring-boot security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="web.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CRUD Spring-boot security:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CRUD Spring-boot security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="web.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CRUD Spring-boot security:war" />
+          <artifact name="CRUD Spring-boot security:war exploded" />
+          <artifact name="CRUD Spring-boot security:Web exploded" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CRUD Spring-boot security:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests#1" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showFiles" value="false" />
+    <option name="showImplicitBeans" value="false" />
+    <option name="showInfrastructureBeans" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9179e501-5ec9-491c-aa98-8f823dd4f376" name="Default Changelist" comment="" />
+      <created>1617222397372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617222397372</updated>
+      <workItem from="1617222401280" duration="2606000" />
+      <workItem from="1617257233181" duration="5380000" />
+      <workItem from="1617289264126" duration="5454000" />
+      <workItem from="1617343547337" duration="7735000" />
+      <workItem from="1617427084781" duration="4479000" />
+      <workItem from="1617534515631" duration="8060000" />
+      <workItem from="1617606174835" duration="7092000" />
+      <workItem from="1617619997210" duration="22607000" />
+      <workItem from="1617687001943" duration="623000" />
+      <workItem from="1617692785773" duration="15852000" />
+      <workItem from="1618162240179" duration="593000" />
+      <workItem from="1618204562887" duration="1931000" />
+      <workItem from="1618294267078" duration="6075000" />
+      <workItem from="1618377543473" duration="1450000" />
+      <workItem from="1618395516312" duration="3801000" />
+      <workItem from="1618464707436" duration="593000" />
+      <workItem from="1618489826392" duration="13379000" />
+      <workItem from="1618559474365" duration="590000" />
+      <workItem from="1618578817125" duration="590000" />
+      <workItem from="1618648665563" duration="2000000" />
+      <workItem from="1618726821550" duration="14467000" />
+      <workItem from="1618811115013" duration="17586000" />
+      <workItem from="1618897977551" duration="16748000" />
+      <workItem from="1618985614681" duration="8301000" />
+      <workItem from="1619086470959" duration="592000" />
+      <workItem from="1619089890417" duration="595000" />
+      <workItem from="1619116477129" duration="2335000" />
+      <workItem from="1619156408278" duration="4547000" />
+      <workItem from="1619247246197" duration="5458000" />
+      <workItem from="1619332416399" duration="1782000" />
+      <workItem from="1619416831255" duration="5079000" />
+      <workItem from="1619504858822" duration="5419000" />
+      <workItem from="1619586550849" duration="12095000" />
+      <workItem from="1619673045116" duration="13290000" />
+      <workItem from="1619761194605" duration="21532000" />
+      <workItem from="1619891804246" duration="736000" />
+      <workItem from="1619948277138" duration="585000" />
+      <workItem from="1619962290572" duration="3940000" />
+      <workItem from="1620026214625" duration="2947000" />
+      <workItem from="1620108693509" duration="9722000" />
+      <workItem from="1620195679521" duration="9479000" />
+      <workItem from="1620278373737" duration="14278000" />
+      <workItem from="1620364233583" duration="19235000" />
+      <workItem from="1620458422305" duration="13017000" />
+      <workItem from="1620539521058" duration="592000" />
+      <workItem from="1620574238899" duration="1152000" />
+      <workItem from="1620628639571" duration="17345000" />
+      <workItem from="1620711196229" duration="8072000" />
+      <workItem from="1620799818006" duration="1207000" />
+      <workItem from="1620851764718" duration="1136000" />
+      <workItem from="1620883960731" duration="680000" />
+      <workItem from="1620894818223" duration="593000" />
+      <workItem from="1620994586770" duration="3613000" />
+      <workItem from="1621066529458" duration="5134000" />
+      <workItem from="1621148458505" duration="6196000" />
+      <workItem from="1621167254601" duration="6565000" />
+      <workItem from="1621230897270" duration="636000" />
+      <workItem from="1621264942251" duration="1158000" />
+      <workItem from="1621314649656" duration="11029000" />
+      <workItem from="1621403044860" duration="6885000" />
+      <workItem from="1621488142266" duration="1951000" />
+      <workItem from="1621494885362" duration="14571000" />
+      <workItem from="1621579680424" duration="11856000" />
+      <workItem from="1621796612334" duration="1189000" />
+      <workItem from="1621838265274" duration="989000" />
+      <workItem from="1621921425727" duration="10319000" />
+      <workItem from="1622005932470" duration="3848000" />
+      <workItem from="1622097455342" duration="14605000" />
+      <workItem from="1622183832428" duration="17967000" />
+      <workItem from="1622308743355" duration="1290000" />
+      <workItem from="1622401478726" duration="598000" />
+      <workItem from="1622445345734" duration="8937000" />
+      <workItem from="1622528731084" duration="17796000" />
+      <workItem from="1622615309744" duration="13539000" />
+      <workItem from="1622699712827" duration="18497000" />
+      <workItem from="1622749933706" duration="928000" />
+      <workItem from="1622783503651" duration="3497000" />
+      <workItem from="1622811007085" duration="1218000" />
+      <workItem from="1622957222743" duration="2971000" />
+      <workItem from="1623044882078" duration="5358000" />
+      <workItem from="1623097444941" duration="584000" />
+      <workItem from="1623177663859" duration="731000" />
+      <workItem from="1623242651792" duration="4074000" />
+      <workItem from="1623307501566" duration="14119000" />
+      <workItem from="1623391088411" duration="20174000" />
+      <workItem from="1623519123359" duration="160000" />
+      <workItem from="1623520660346" duration="201000" />
+      <workItem from="1623520945836" duration="1286000" />
+      <workItem from="1623612653438" duration="1717000" />
+      <workItem from="1623656620221" duration="14828000" />
+      <workItem from="1623738689343" duration="8494000" />
+      <workItem from="1623835979991" duration="813000" />
+      <workItem from="1623842502424" duration="1914000" />
+      <workItem from="1623844988717" duration="8311000" />
+      <workItem from="1623910600711" duration="13239000" />
+      <workItem from="1623997193625" duration="6269000" />
+      <workItem from="1624090719633" duration="2582000" />
+      <workItem from="1624172799890" duration="15312000" />
+      <workItem from="1624258105035" duration="19709000" />
+      <workItem from="1624346867771" duration="123000" />
+      <workItem from="1624350212256" duration="4891000" />
+      <workItem from="1624465344685" duration="1102000" />
+      <workItem from="1624539072234" duration="7422000" />
+      <workItem from="1624602273890" duration="5480000" />
+      <workItem from="1624716982293" duration="684000" />
+      <workItem from="1624805676165" duration="9429000" />
+      <workItem from="1624907704439" duration="922000" />
+      <workItem from="1624947178820" duration="573000" />
+      <workItem from="1624959975169" duration="7994000" />
+      <workItem from="1625029313571" duration="3522000" />
+      <workItem from="1625124373045" duration="3444000" />
+      <workItem from="1625209042358" duration="5609000" />
+      <workItem from="1625254918270" duration="129000" />
+      <workItem from="1625336357891" duration="104000" />
+      <workItem from="1625406102792" duration="4313000" />
+      <workItem from="1625467783426" duration="5425000" />
+      <workItem from="1625495949420" duration="7241000" />
+      <workItem from="1625560240076" duration="4257000" />
+      <workItem from="1625641398412" duration="104000" />
+      <workItem from="1625649157871" duration="599000" />
+      <workItem from="1625664407366" duration="1212000" />
+      <workItem from="1625685847353" duration="893000" />
+      <workItem from="1625687998753" duration="731000" />
+      <workItem from="1625689267918" duration="1612000" />
+      <workItem from="1625697528300" duration="271000" />
+      <workItem from="1625720361074" duration="1481000" />
+      <workItem from="1625723865727" duration="154000" />
+      <workItem from="1625725438238" duration="111000" />
+      <workItem from="1625731408396" duration="12977000" />
+      <workItem from="1625811475706" duration="8787000" />
+      <workItem from="1625830412899" duration="2034000" />
+      <workItem from="1625834005793" duration="5000" />
+      <workItem from="1625834173821" duration="2192000" />
+      <workItem from="1625841313174" duration="1588000" />
+      <workItem from="1625843472261" duration="2998000" />
+      <workItem from="1625851810950" duration="1269000" />
+      <workItem from="1625857411109" duration="291000" />
+      <workItem from="1625857777977" duration="472000" />
+      <workItem from="1625858285210" duration="617000" />
+      <workItem from="1625858948474" duration="4395000" />
+      <workItem from="1625869081955" duration="88000" />
+      <workItem from="1625910791771" duration="1037000" />
+      <workItem from="1625926125928" duration="7353000" />
+      <workItem from="1625953960531" duration="82000" />
+      <workItem from="1625954215123" duration="469000" />
+      <workItem from="1625988440776" duration="781000" />
+      <workItem from="1625990666784" duration="320000" />
+      <workItem from="1625991536966" duration="116000" />
+      <workItem from="1625992089254" duration="717000" />
+      <workItem from="1625992839616" duration="52000" />
+      <workItem from="1625992962829" duration="1564000" />
+      <workItem from="1625995580952" duration="5000" />
+      <workItem from="1625996739627" duration="6352000" />
+      <workItem from="1626016149460" duration="11087000" />
+      <workItem from="1626064361619" duration="2701000" />
+      <workItem from="1626087143590" duration="9512000" />
+      <workItem from="1626158313456" duration="5453000" />
+      <workItem from="1626199082567" duration="2321000" />
+      <workItem from="1626242301690" duration="987000" />
+      <workItem from="1626258262120" duration="9139000" />
+      <workItem from="1626328505262" duration="2506000" />
+      <workItem from="1626356353429" duration="4050000" />
+      <workItem from="1626416276060" duration="9248000" />
+      <workItem from="1626493576459" duration="722000" />
+      <workItem from="1626534237312" duration="6012000" />
+      <workItem from="1626602127278" duration="15856000" />
+      <workItem from="1626675736111" duration="4024000" />
+      <workItem from="1626700296611" duration="1999000" />
+      <workItem from="1626757423112" duration="6780000" />
+      <workItem from="1626846396685" duration="26660000" />
+      <workItem from="1626933009778" duration="114000" />
+      <workItem from="1626941634838" duration="9057000" />
+      <workItem from="1627019070338" duration="6610000" />
+      <workItem from="1627120565133" duration="4112000" />
+      <workItem from="1627195650821" duration="7183000" />
+      <workItem from="1627279332229" duration="8845000" />
+      <workItem from="1627318085294" duration="3096000" />
+      <workItem from="1627364852374" duration="9859000" />
+      <workItem from="1627449858468" duration="3837000" />
+      <workItem from="1627540040556" duration="21947000" />
+      <workItem from="1627625992719" duration="4849000" />
+      <workItem from="1627846027078" duration="1383000" />
+      <workItem from="1627884905121" duration="8730000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1617614473663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617614473663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1617615405754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617615405754</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1617618853803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617618853803</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <created>1617622520644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617622520644</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1617623381799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617623381799</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1617687441481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617687441481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit">
+      <created>1617733067340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617733067340</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit">
+      <created>1623747910921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623747910921</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit">
+      <created>1627896808005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627896808005</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
