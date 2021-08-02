@@ -17,11 +17,14 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "Firstname")
+    private String firstName;
 
-    @Column(name = "lastName")
+    @Column(name = "LastName")
     private String lastName;
+
+    @Column(name = "Age")
+    private Integer age;
 
     @Column(name = "username")
     private String username;
@@ -34,14 +37,32 @@ public class User implements UserDetails {
             inverseJoinColumns = {@JoinColumn(name = "role_id")})
     private List<Role> roles = new ArrayList<>();
 
-       public User() {
+    public User() {
     }
 
-    public User(String name, String lastName, String username, String password) {
-        this.name = name;
+    public User(String firstName, String lastName, Integer age, String username, String password) {
+        this.firstName = firstName;
         this.lastName = lastName;
+        this.age = age;
         this.username = username;
         this.password = password;
+
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public User(int id, List<Role> roles) {
@@ -49,21 +70,12 @@ public class User implements UserDetails {
         this.roles = roles;
     }
 
-
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getLastName() {
