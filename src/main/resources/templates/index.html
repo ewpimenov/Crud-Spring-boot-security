@@ -12,10 +12,9 @@
 
 <script>
 
-    window.onload = function () {
+   /* window.onload = function () {
 
-    }
-
+    }*/
 
     fetch('http://localhost:8080/admin').then(
         res => {
@@ -43,9 +42,29 @@
     )
 
 
+   let userForm = document.querySelector('#addForm'),
 
-    let _add = document.getElementById('firstName').value
+       addForm.onsubmit = async (e) => {
+           e.preventDefault();
 
+           let response = await fetch('http://localhost:8080/admin', {
+               method: 'POST',
+               body: new FormData(addForm)
+           });
+
+           let result = await response.json();
+
+           alert(result.message);
+       }
+
+
+        let _add = {
+        firstName: document.querySelector('#firstName_add'),
+        lastName: document.querySelector('#lastName_add'),
+        age: document.querySelector('#age_add'),
+        username: document.querySelector('#username_add'),
+        password: document.querySelector('#password_add'),
+    }
 
     fetch('http://localhost:8080/admin', {
         method: "POST",
@@ -57,36 +76,7 @@
     .catch(err => console.log(err));
 
 
-   /* fetch('http://localhost:8080/admin', {
-        method: "PUT",
-        body: JSON.stringify(_put),
-        headers: {"Content-type": "application/json; charset=UTF-8"}
-    })
-        .then(response => response.json())
-        .then(json => console.log(json))
-        .catch(err => console.log(err));
 
-
-    let _del = {
-        id: " ",
-        firstName: " ",
-        lastName: " ",
-        age: "  ",
-        username: " ",
-        password: " ",
-    }
-
-    fetch('http://localhost:8080/admin', {
-        method: "DELETE",
-        body: JSON.stringify(_del),
-        headers: {"Content-type": "application/json; charset=UTF-8"}
-    })
-        .then(response => response.json())
-        .then(json => console.log(json))
-        .catch(err => console.log(err));
-
-
-*/
 
 </script>
 
@@ -130,7 +120,7 @@
                     <a class="nav-item nav-link" data-toggle="tab" href="#New User"
                        role="tab" aria-controls="nav-profile" aria-selected="false">New User</a>
                 </div>
-                <div id="users" class="tab-content border">
+                <div class="tab-content border">
                     <div role="tabpanel" class=" tab-pane active" id="Users table">
                         <table class="table">
                             <form method="get">
@@ -284,7 +274,7 @@
                         </form>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane" id="New User">
+                    <div role="tabpanel" class="tab-pane"  id="New User">
                         <table class="table text-center">
                             <div class="p-3 border bg-light">Add new user</div>
                             <td>
@@ -294,26 +284,26 @@
                                     }
                                 </style>
                                 <table class="table table-striped">
-                                    <form>
+                                    <form id="addForm">
                                         <div class="form-group text-center">
-                                            <label for="firstName">FirstName</label><br>
-                                            <input type="text" name="firstName" id="firstName"/>
+                                            <label for="firstName_add">FirstName</label><br>
+                                            <input type="text" name="firstName" id="firstName_add"/>
                                         </div>
                                         <div class="form-group text-center">
-                                            <label for="lastName">LastName</label><br>
-                                            <input type="text" name="lastName" id="lastName"/>
+                                            <label for="lastName_add">LastName</label><br>
+                                            <input type="text" name="lastName" id="lastName_add"/>
                                         </div>
                                         <div class="form-group text-center">
-                                            <label for="age">Age</label><br>
-                                            <input type="text" name="age" id="age"/>
+                                            <label for="age_add">Age</label><br>
+                                            <input type="text" name="age" id="age_add"/>
                                         </div>
                                         <div class="form-group text-center">
-                                            <label for="username">Username</label><br>
-                                            <input type="text" name="username" id="username"/>
+                                            <label for="username_add">Username</label><br>
+                                            <input type="text" name="username" id="username_add"/>
                                         </div>
                                         <div class="form-group text-center">
-                                            <label for="password">Password</label><br>
-                                            <input type="text" name="password" id="password"/>
+                                            <label for="password_add">Password</label><br>
+                                            <input type="text" name="password" id="password_add"/>
                                         </div>
                                         <div class="form-group text-center">
                                             <label>Role</label><br>
@@ -323,7 +313,7 @@
                                             </select>
                                         </div>
                                         <div>
-                                            <button type="submit" class="btn btn-success">Add new
+                                            <button type="submit" class="btn btn-success" on>Add new
                                                 user
                                             </button>
 

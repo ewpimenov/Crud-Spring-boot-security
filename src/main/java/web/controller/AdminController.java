@@ -49,10 +49,12 @@ public class AdminController {
     }
 
     @PostMapping
-    public void addUser(@RequestBody User user, String[] role) {
+    public ResponseEntity<User> addUser(@RequestBody User user, String[] role) {
         user.setRoles(roleService.getRolesByName(role));
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         userService.addUser(user);
+        return new ResponseEntity<User>(HttpStatus.CREATED);
+
     }
 
     @PutMapping(value = "{id}")
