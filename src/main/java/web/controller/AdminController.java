@@ -57,7 +57,7 @@ public class AdminController {
     }
 
     @PutMapping(value = "{id}")
-    public ResponseEntity<?> update(@PathVariable int id, @RequestBody User user, @RequestBody String [] role) {
+    public ResponseEntity<?> update(@PathVariable int id, @RequestBody User user, String [] role) {
 
         user.setRoles(roleService.getRolesByName(role));
         User userFromDB = userService.getUser(id);

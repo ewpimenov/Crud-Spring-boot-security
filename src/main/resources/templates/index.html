@@ -97,7 +97,8 @@
     async function edit(event, id) {
         event.preventDefault();
 
-
+        let editModalInputs = Array.from(document.querySelectorAll('.editModalForm input'));
+        console.log(editModalInputs);
 
         let formData = new FormData(document.querySelector('.editModalForm form'));
         let editUserData = {

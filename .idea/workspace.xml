@@ -10,40 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9179e501-5ec9-491c-aa98-8f823dd4f376" name="Default Changelist" comment="commit and push">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_portlet_portlet_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__myfaces_myfaces_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRUD_Spring_boot_security_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRUD_Spring_boot_security_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD Spring-boot security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD Spring-boot security.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,7 +447,7 @@
       <workItem from="1630757643568" duration="11313000" />
       <workItem from="1630823255928" duration="5533000" />
       <workItem from="1630855078941" duration="8125000" />
-      <workItem from="1630906487071" duration="602000" />
+      <workItem from="1630906487071" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1617614473663</created>
@@ -570,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628003376653</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit and push">
+      <created>1630917402997</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1630917402997</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
