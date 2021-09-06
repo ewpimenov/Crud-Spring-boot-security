@@ -94,6 +94,21 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:5.3.5" />
+          <element id="library" level="project" name="Maven: commons-chain:commons-chain:1.1" />
+          <element id="library" level="project" name="Maven: javax.portlet:portlet-api:1.0" />
+          <element id="library" level="project" name="Maven: myfaces:myfaces-api:1.1.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+          <element id="library" level="project" name="Maven: commons-el:commons-el:1.0" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.0" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.1" />
+          <element id="library" level="project" name="Maven: commons-validator:commons-validator:1.1.4" />
+          <element id="library" level="project" name="Maven: oro:oro:2.0.8" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.7.0" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.6" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.0.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">

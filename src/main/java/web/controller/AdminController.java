@@ -35,7 +35,7 @@ public class AdminController {
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<User> users() {
-      return userService.getAllUsers();
+        return userService.getAllUsers();
     }
 
     @GetMapping(value = "{id}")
@@ -49,28 +49,25 @@ public class AdminController {
     }
 
     @PostMapping
-    public ResponseEntity<User> addUser(@RequestBody User user, String[] role) {
+    public ResponseEntity<?> addUser(@ModelAttribute User user, @RequestParam String[] role) {
         user.setRoles(roleService.getRolesByName(role));
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         userService.addUser(user);
-        return new ResponseEntity<User>(HttpStatus.CREATED);
-
+        return new ResponseEntity<>(user.getId(), HttpStatus.CREATED);
     }
 
     @PutMapping(value = "{id}")
-    public ResponseEntity<User> update(@PathVariable int id, @RequestBody User user, String[] role) {
-        try {
-            user.setRoles(roleService.getRolesByName(role));
-            User userFromDB = userService.getUser(id);
-            String oldPassword = userFromDB.getPassword();
-            if (!user.getPassword().equals(oldPassword)) {
-                user.setPassword(passwordEncoder.encode(user.getPassword()));
-                userService.updateUser(userFromDB);
-            }
-            return new ResponseEntity<>(user, HttpStatus.OK);
-        } catch (NoSuchElementException e) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    public ResponseEntity<?> update(@PathVariable int id, @RequestBody User user, @RequestBody String [] role) {
+
+        user.setRoles(roleService.getRolesByName(role));
+        User userFromDB = userService.getUser(id);
+        String oldPassword = userFromDB.getPassword();
+        if (!user.getPassword().equals(oldPassword)) {
+            user.setPassword(passwordEncoder.encode(user.getPassword()));
+            userService.updateUser(user);
         }
+
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping(value = "{id}")
