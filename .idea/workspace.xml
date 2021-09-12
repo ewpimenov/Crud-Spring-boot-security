@@ -11,9 +11,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9179e501-5ec9-491c-aa98-8f823dd4f376" name="Default Changelist" comment="commit and push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/controller/AdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/AdminController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,7 +450,20 @@
       <workItem from="1630757643568" duration="11313000" />
       <workItem from="1630823255928" duration="5533000" />
       <workItem from="1630855078941" duration="8125000" />
-      <workItem from="1630906487071" duration="2258000" />
+      <workItem from="1630906487071" duration="6681000" />
+      <workItem from="1630996932514" duration="4435000" />
+      <workItem from="1631043679945" duration="1826000" />
+      <workItem from="1631080660381" duration="1486000" />
+      <workItem from="1631095895389" duration="2389000" />
+      <workItem from="1631184968102" duration="1843000" />
+      <workItem from="1631190548199" duration="599000" />
+      <workItem from="1631198772285" duration="592000" />
+      <workItem from="1631213930415" duration="1838000" />
+      <workItem from="1631249309655" duration="2773000" />
+      <workItem from="1631268317558" duration="591000" />
+      <workItem from="1631337775693" duration="1238000" />
+      <workItem from="1631434126138" duration="617000" />
+      <workItem from="1631454186257" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1617614473663</created>
@@ -547,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630917402997</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit and push">
+      <created>1630949093352</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630949093352</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

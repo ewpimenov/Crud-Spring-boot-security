@@ -57,16 +57,15 @@ public class AdminController {
     }
 
     @PutMapping(value = "{id}")
-    public ResponseEntity<?> update(@PathVariable int id, @RequestBody User user, String [] role) {
+    public ResponseEntity<?> update(@PathVariable int id, @RequestBody  User user) {
 
-        user.setRoles(roleService.getRolesByName(role));
         User userFromDB = userService.getUser(id);
         String oldPassword = userFromDB.getPassword();
         if (!user.getPassword().equals(oldPassword)) {
             user.setPassword(passwordEncoder.encode(user.getPassword()));
+            user.setRoles(user.getRoles());
             userService.updateUser(user);
         }
-
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
