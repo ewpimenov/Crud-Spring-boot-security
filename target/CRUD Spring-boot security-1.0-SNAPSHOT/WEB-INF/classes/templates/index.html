@@ -18,7 +18,6 @@
             res => {
                 res.json().then(
                     data => {
-                        // console.log(data)
                         if (data.length > 0) {
                             data.forEach((u) => {
                                 addUserRow(u);
@@ -29,6 +28,18 @@
         )
     }
 
+    /* let roleUser = {
+         toString: function() {
+             return "USER" + " ";
+         }
+     };
+
+     let roleAdmin = {
+         toString: function() {
+             return "ADMIN";
+         }
+     };*/
+
     function addUserRow(u) {
         let temp = "";
         temp += `<tr id = 'userDataId-${u.id}'>`;
@@ -37,48 +48,96 @@
         temp += "<td class='userData'>" + u.lastName + "</td>";
         temp += "<td class='userData'>" + u.age + "</td>";
         temp += "<td class='userData'>" + u.username + "</td>";
-        temp += "<td>" + u.roles + "</td>";
+        temp += "<td>" + JSON.stringify(u.roles) + "</td>";
         temp += "<td> <button class=\"btn btn-info\" data-target=\"#editModal\" id=\"#updateForm\" onclick='editOpenModal(this)' data-toggle=\"modal\" type=\"button\">Edit</button></td>";
         temp += "<td> <button class=\"btn btn-danger\" data-target=\"#deleteModal\" onclick='delOpenModal(this)' data-toggle=\"modal\" type=\"button\">Delete</button></td></tr>";
-        document.getElementById("data").insertAdjacentHTML('beforeend', temp);
 
+        document.getElementById("data").insertAdjacentHTML('beforeend', temp);
     }
 
     function add() {
         let addForm = document.querySelector('#addForm');
+
         addForm.onsubmit = async (e) => {
             e.preventDefault();
-            let userId = await fetch('http://localhost:8080/admin', {
-                method: 'POST',
-                body: new FormData(addForm),
-            })
-                .then(response => {
-                    return response.text()
-                })
 
-            //  console.log(userId)
-
-            let formData = new FormData(addForm)
-            let userData = {
-                id: userId,
-                firstName: formData.get('firstName'),
-                lastName: formData.get('lastName'),
-                age: formData.get('age'),
-                username: formData.get('username'),
-                role: formData.get('role')
+            userRoles = document.getElementById('roles').value
+            if (userRoles = "ADMIN"){
+                return
+                roles = {
+                    id: 1,
+                    role: "ADMIN",
+                    authority: "ADMIN"
+                };
+            } else {
+                roles = {
+                    id: 2,
+                    role: "USER",
+                    authority: "USER"
+                }
             }
-            //   console.log(userData);
-            addUserRow(userData);
+            const newUser = {
+                id: document.getElementById('id').value,
+                lastName: document.getElementById('lastName').value,
+                firstName: document.getElementById('firstName').value,
+                age: document.getElementById('age').value,
+                username: document.getElementById('username').value,
+                password: document.getElementById('password').value,
+                roles: roles,
+            }
+
+            /*const newUser = {
+                id: document.getElementById('id').value,
+                lastName: document.getElementById('lastName').value,
+                firstName: document.getElementById('firstName').value,
+                age: document.getElementById('age').value,
+                username: document.getElementById('username').value,
+                password: document.getElementById('password').value,
+                roles: [], // как здесь реализовать добавление в массив ролей объекта роли со всеми полями?
+            }
+
+            const role1 = {
+                id: 1,
+                role: "ADMIN",
+                authority: "ADMIN"
+            };
+
+            const role2 = [{
+                id: 2,
+                role: "USER",
+                authority: "USER"
+            }];*/
+//тебе надо поправить только то, что для отмеченных объектов
+// надо добавлять в массив ролей  объект роли со всеми необходимыми полями
+
+            /*roles: [
+              {
+                    "id": 1,
+                    "role": "ADMIN",
+                    "authority": "ADMIN"
+                },
+                {
+                    "id": 2,
+                    "role": "USER",
+                    "authority": "USER"
+                }
+            ],*/
+
+
+            await fetch(`http://localhost:8080/admin`, {
+                method: 'POST',
+                body: JSON.stringify(newUser),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+
+            addUserRow(newUser);
             let triggerE1 = document.querySelector('a[href="#Users table"]')
             let tabTrigger = new bootstrap.Tab(triggerE1)
             tabTrigger.show();
-
-            //  console.log(response.text());
-            // console.log(Array.from(formData.values()))
-
-            let result = await response.join();
-            alert(result.message);
-        };
+        }
+        ;
     }
 
     function editOpenModal(button) {
@@ -97,7 +156,7 @@
     async function edit(event, id) {
         event.preventDefault();
 
-        let editModalInputs = Array.from(document.querySelectorAll('.editModalForm input'));
+        let editModalInputs = Array.from(document.querySelectorAll('.editModalForm'));
         console.log(editModalInputs);
 
         let formData = new FormData(document.querySelector('.editModalForm form'));
@@ -108,7 +167,7 @@
             age: formData.get('age'),
             username: formData.get('username'),
             password: formData.get('password'),
-            roles: formData.get('roles'),
+            roles: formData.getAll('roles'),
         }
 
         fetch(`http://localhost:8080/admin/${id}`, {
@@ -122,7 +181,6 @@
                 console.log('editRow');
                 $('#editModal').modal('hide')
                 let editRow = document.querySelector(`#userDataId-${id}`);
-
 
             }).catch(err => {
             console.error(err)
@@ -140,7 +198,6 @@
         for (let i = 0; i < userData.length; i++) {
             formInputs[i].setAttribute('value', userData[i])
         }
-        //    console.log(userData);
     }
 
     async function del(event, id) {
@@ -279,7 +336,7 @@
                                             </div>
                                             <div class="form-group text-center">
                                                 <label>Role</label><br>
-                                                <select name="roles" multiple size="2">
+                                                <select name="roles" id="roles" multiple size="2">
                                                     <option value="ADMIN">ADMIN</option>
                                                     <option value="USER">USER</option>
                                                 </select>
@@ -393,7 +450,7 @@
                                         </div>
                                         <div class="form-group text-center">
                                             <label>Role</label><br>
-                                            <select name="role" multiple size="2" required autofocus>
+                                            <select name="roles" id="roles" multiple size="2" required autofocus>
                                                 <option value="ADMIN">ADMIN</option>
                                                 <option value="USER">USER</option>
                                             </select>

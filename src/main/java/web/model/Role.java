@@ -11,11 +11,9 @@ public class Role implements GrantedAuthority {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonIgnore
     private int id;
 
     @Column(name = "role")
-    @JsonIgnore
     private String role;
 
     public Role(){}

@@ -32,7 +32,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     @Override
     public User addUser(User user) {
     return userRepository.saveAndFlush(user);
-
     }
 
     @Override
@@ -43,8 +42,9 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 
     @Override
     @Transactional
-    public void updateUser(User user) {
+    public User updateUser(User user) {
         userRepository.saveAndFlush(user);
+        return user;
     }
 
     @Override

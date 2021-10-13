@@ -27,7 +27,7 @@ public class User implements UserDetails {
     @Column(name = "Age")
     private Integer age;
 
-    @Column(name = "username")
+    @Column(name = "username", unique = true)
     private String username;
 
     @Column(name = "password")
@@ -41,25 +41,15 @@ public class User implements UserDetails {
     public User() {
     }
 
-    public User(String firstName, String lastName, Integer age, String username, String password) {
+    public User(String firstName, String lastName, Integer age, String username, String password, List<Role> roles) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.username = username;
         this.password = password;
+        this.roles = roles;
 
     }
-
-   /* public String getRoleString() {
-        String role = "ADMIN USER";
-
-        if (role == "ADMIN") {
-            return "ADMIN";
-        } else if (role == "USER") {
-            return "USER";
-        }
-        return role;
-    }*/
 
     public String getFirstName() {
         return firstName;
@@ -113,7 +103,6 @@ public class User implements UserDetails {
     }
 
     @Override
-    @JsonIgnore
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return getRoles();
     }
@@ -157,9 +146,11 @@ public class User implements UserDetails {
         return true;
     }
 
+
     public void setPassword(String password) {
         this.password = password;
     }
+
 
     public List<Role> getRoles() {
         return roles;
@@ -169,3 +160,5 @@ public class User implements UserDetails {
         this.roles = roles;
     }
 }
+
+

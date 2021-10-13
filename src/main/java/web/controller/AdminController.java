@@ -49,24 +49,20 @@ public class AdminController {
     }
 
     @PostMapping
-    public ResponseEntity<?> addUser(@ModelAttribute User user, @RequestParam String[] role) {
-        user.setRoles(roleService.getRolesByName(role));
+    public User addUser(@RequestBody User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        userService.addUser(user);
-        return new ResponseEntity<>(user.getId(), HttpStatus.CREATED);
+        return userService.addUser(user);
     }
 
-    @PutMapping(value = "{id}")
-    public ResponseEntity<?> update(@PathVariable int id, @RequestBody  User user) {
+    @PutMapping(value = "/{id}")
+    public User update(@PathVariable int id, @RequestBody  User user) {
 
         User userFromDB = userService.getUser(id);
         String oldPassword = userFromDB.getPassword();
         if (!user.getPassword().equals(oldPassword)) {
             user.setPassword(passwordEncoder.encode(user.getPassword()));
-            user.setRoles(user.getRoles());
-            userService.updateUser(user);
         }
-        return new ResponseEntity<>(HttpStatus.OK);
+        return userService.updateUser(user);
     }
 
     @DeleteMapping(value = "{id}")
