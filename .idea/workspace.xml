@@ -10,66 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9179e501-5ec9-491c-aa98-8f823dd4f376" name="Default Changelist" comment="commit and push">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRUD_Spring_boot_security_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRUD_Spring_boot_security_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_portlet_portlet_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__myfaces_myfaces_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_10_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD Spring-boot security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD Spring-boot security.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/static/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.18.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.1.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD Spring-boot security-1.0-SNAPSHOT/WEB-INF/classes/web/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/config/WebConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +132,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29371428" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -192,11 +145,11 @@
       <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\public" />
+      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\templates" />
       <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\static" />
       <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\static\JS" />
-      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\resources\templates" />
       <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\main\templates" />
-      <recent name="F:\JAVA LEARNING\CRUD Spring-boot security\src\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -576,7 +529,39 @@
       <workItem from="1634033318031" duration="591000" />
       <workItem from="1634064322883" duration="734000" />
       <workItem from="1634103158078" duration="267000" />
-      <workItem from="1634112404366" duration="1549000" />
+      <workItem from="1634112404366" duration="4055000" />
+      <workItem from="1634186252024" duration="3021000" />
+      <workItem from="1634207530861" duration="1673000" />
+      <workItem from="1634221443160" duration="2049000" />
+      <workItem from="1634266956523" duration="590000" />
+      <workItem from="1634311497923" duration="2120000" />
+      <workItem from="1634500202707" duration="1730000" />
+      <workItem from="1634526998550" duration="4854000" />
+      <workItem from="1634575254323" duration="860000" />
+      <workItem from="1634616437774" duration="1655000" />
+      <workItem from="1634632018518" duration="3517000" />
+      <workItem from="1634708378889" duration="3638000" />
+      <workItem from="1634748066840" duration="587000" />
+      <workItem from="1634787943066" duration="1595000" />
+      <workItem from="1634806902058" duration="5442000" />
+      <workItem from="1634876390505" duration="2128000" />
+      <workItem from="1634923532077" duration="200000" />
+      <workItem from="1634967964913" duration="1352000" />
+      <workItem from="1635134129074" duration="1194000" />
+      <workItem from="1635147652934" duration="591000" />
+      <workItem from="1635237099290" duration="1770000" />
+      <workItem from="1635308193729" duration="4179000" />
+      <workItem from="1635334491320" duration="602000" />
+      <workItem from="1635356299232" duration="3037000" />
+      <workItem from="1635405167068" duration="3585000" />
+      <workItem from="1635448049277" duration="4748000" />
+      <workItem from="1635479895042" duration="7874000" />
+      <workItem from="1635522537112" duration="5807000" />
+      <workItem from="1635571805854" duration="6146000" />
+      <workItem from="1635676594383" duration="5582000" />
+      <workItem from="1635698176276" duration="1572000" />
+      <workItem from="1635743507466" duration="636000" />
+      <workItem from="1635750385062" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1617614473663</created>
@@ -690,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631454775666</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="commit and push">
+      <created>1634118015396</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1634118015396</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,7 +693,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/3.1.3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
